@@ -193,6 +193,9 @@ a {
 }
 
 /* buttons */
+
+
+
 .btn {
   border-radius: 40px;
   border: 0;
@@ -204,6 +207,14 @@ a {
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+
+.btn .icon{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
 }
 
 .btn--primary {
