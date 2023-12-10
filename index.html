@@ -31,14 +31,14 @@
     </header>
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
-        <header class="block__header hero__content">
+        <header class="block__header hero__content" data-aos="fade-left">
           <h1 class="block__heading">Cloud Hosting for Pros</h1>
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds.
           </p>
           <a href="" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
-        <picture>
+        <picture data-aos="slide-up">
           <source
             type="image/webp"
             srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
@@ -52,7 +52,7 @@
       </div>
     </section>
     <section class="block container block-domain">
-      <header class="block__header">
+      <header class="block__header" data-aos="zoom-in">
         <h2>Starting at $9 per month</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ea.
@@ -81,10 +81,10 @@
       </ul>
     </section>
     <section class="block container block-plans">
-      <div class="grid grid--1x3">
+      <div class="grid grid--1x3" >
         <div class="plan">
           <div>
-            <div class="card card--secondary">
+            <div class="card card--secondary" >
               <header class="card__header">
                 <h3 class="plan__name">Entry</h3>
                 <span class="plan__price">$14</span>
@@ -160,7 +160,7 @@
         </p>
       </header>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#easy"></use>
@@ -173,7 +173,7 @@
           </p>
           <a href="#" class="link-arrow">Learn more </a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="images/easy@1x.webp 1x, images/easy@2x.webp 2x"
@@ -269,7 +269,7 @@
         <h2>User-friendly Control Panel</h2>
       </header>
       <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
+        <picture class="block-showcase__image" data-aos="fade-left">
           <source
             type="image/webp"
             srcset="images/ipad@1x.webp 1x, images/ipad@2x.webp 2x"
@@ -288,7 +288,7 @@
                   <use xlink:href="images/sprite.svg#settings"></use>
                 </svg>
               </div>
-              <div class="media__body">
+              <div class="media__body" data-aos="slide-up">
                 <h3 class="media__title">Easy Start & Manage Updates</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
@@ -335,40 +335,46 @@
         </ul>
       </div>
     </section>
-    <div class="card testimonial">
-      <div class="grid grid--1x2">
-        <div class="testimonial__image">
-          <img src="images/testimonial.jpg" alt="A happy smiling customer" />
-          <span class="icon-container icon-container--accent">
-            <svg class="icon icon--white">
-              <use xlink:href="images/sprite.svg#quotes"></use>
-            </svg>
-          </span>
-        </div>
-        <div>
-          <blockquote class="quote">
-            <p class="quote__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              voluptatibus nulla modi eum quo beatae possimus porro! Architecto,
-              inventore vel!
-            </p>
-            <footer>
-              <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--primary quote__line">
-                    <use xlink:href="images/sprite.svg#line"></use>
-                  </svg>
+    <section class="block">
+      <header class="block__header" data-aos="zoom-in">
+        <h2>What our Customers are Saying</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, cumque.</p>
+      </header>
+      <div class="card testimonial">
+        <div class="grid grid--1x2">
+          <div class="testimonial__image">
+            <img src="images/testimonial.jpg" alt="A happy smiling customer" />
+            <span class="icon-container icon-container--accent">
+              <svg class="icon icon--white">
+                <use xlink:href="images/sprite.svg#quotes"></use>
+              </svg>
+            </span>
+          </div>
+          <div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                voluptatibus nulla modi eum quo beatae possimus porro! Architecto,
+                inventore vel!
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">John Smith</h3>
+                    <p class="quote__organisation">ABC Company</p>
+                  </div>
                 </div>
-                <div class="media__body">
-                  <h3 class="media__title quote__author">John Smith</h3>
-                  <p class="quote__organisation">ABC Company</p>
-                </div>
-              </div>
-            </footer>
-          </blockquote>
+              </footer>
+            </blockquote>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
